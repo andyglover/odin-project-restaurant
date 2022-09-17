@@ -21,7 +21,13 @@ const tabHome = (() => {
     const showContent = () => {
         clearContent();
         renderTabs();
-        console.log("Showing home tab")
+        getContent();
+    }
+    const getContent = () => {
+        const tabHomeContent = document.createElement('p');
+        tabHomeContent.innerText = "home content!";
+        content.appendChild(tabHomeContent);
+        console.log("Showing home tab");
     }
 
     const render = () => {
@@ -39,7 +45,14 @@ const tabMenu = (() => {
     const showContent = () => {
         clearContent();
         renderTabs();
+        getContent();
         console.log("Showing menu tab")
+    }
+    const getContent = () => {
+        const tabMenuContent = document.createElement('p');
+        tabMenuContent.innerText = "menu content!";
+        content.appendChild(tabMenuContent);
+        console.log("Showing menu tab");
     }
     
     const render = () => {
@@ -56,7 +69,14 @@ const tabContact = (() => {
     const showContent = () => {
         clearContent();
         renderTabs();
+        getContent();
         console.log("Showing contact tab")
+    }
+    const getContent = () => {
+        const tabContactContent = document.createElement('p');
+        tabContactContent.innerText = "contact content!";
+        content.appendChild(tabContactContent);
+        console.log("Showing contact tab");
     }
     const render = () => {
         const tabContact = document.createElement('p');
