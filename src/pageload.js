@@ -13,5 +13,5 @@ export default function pageload() {
 
         return element;
     }
-    document.body.appendChild(component());
+    document.getElementById("content").appendChild(component());
 }
