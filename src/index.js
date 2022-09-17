@@ -46,7 +46,6 @@ const tabMenu = (() => {
         clearContent();
         renderTabs();
         getContent();
-        console.log("Showing menu tab")
     }
     const getContent = () => {
         const tabMenuContent = document.createElement('p');
@@ -70,7 +69,6 @@ const tabContact = (() => {
         clearContent();
         renderTabs();
         getContent();
-        console.log("Showing contact tab")
     }
     const getContent = () => {
         const tabContactContent = document.createElement('p');
