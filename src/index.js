@@ -10,7 +10,7 @@ const tabHome = (() => {
     tabHome.innerText = "home";
     
     const showContent = function () {
-        console.log("h")
+        console.log("Showing home tab")
     }
     tabHome.addEventListener("click", showContent)
     content.appendChild(tabHome);
@@ -21,7 +21,7 @@ const tabMenu = (() => {
     tabMenu.innerText = "menu";
     
     const showContent = () => {
-        console.log("md")
+        console.log("Showing menu tab")
     }
     tabMenu.addEventListener("click", showContent)
     content.appendChild(tabMenu);
@@ -32,7 +32,7 @@ const tabContact = (() => {
     tabContact.innerText = "contact";
     
     const showContent = () => {
-        console.log("csh")
+        console.log("Showing contact tab")
     }
     tabContact.addEventListener("click", showContent)
     content.appendChild(tabContact);
