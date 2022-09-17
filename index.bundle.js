@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageload_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageload.js */ \"./src/pageload.js\");\n\nconsole.log(\"Hello, Webpack!\");\n(0,_pageload_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack://odin-project-restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageload_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageload.js */ \"./src/pageload.js\");\n\nconsole.log(\"Hello, Webpack!\");\n(0,_pageload_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//make the tabs\nconst content = document.getElementById(\"content\");\n\nconst tabHome = (() => {\n    const tabHome = document.createElement('p');\n    tabHome.innerText = \"home\";\n    content.appendChild(tabHome);\n})();\n\nconst tabMenu = (() => {\n    const tabMenu = document.createElement('p');\n    tabMenu.innerText = \"menu\";\n    content.appendChild(tabMenu);\n})();\n\nconst tabContact = (() => {\n    const tabContact = document.createElement('p');\n    tabContact.innerText = \"contact\";\n    content.appendChild(tabContact);\n})();\n\n//# sourceURL=webpack://odin-project-restaurant/./src/index.js?");
 
 /***/ }),
 
