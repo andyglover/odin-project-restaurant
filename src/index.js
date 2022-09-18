@@ -1,8 +1,11 @@
-import pageload from './pageload.js';
+import home from './home.js';
 import header from './header.js';
+import main from './main.js';
+
 console.log("Hello, Webpack!");
 header();
-pageload();
+main();
+home();
 
 //make the tabs
 const content = document.getElementById("content");

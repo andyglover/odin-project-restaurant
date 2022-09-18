@@ -1,6 +1,6 @@
 import Restaurant from './restaurant.jpg';
 
-export default function pageload() {    
+export default function home() {    
     console.log('This stuff happens when the page is loaded!');
 
     function component() {
