@@ -10,7 +10,7 @@ export default function header() {
         const tabHome = document.createElement('p');
         tabHome.innerText = "home";
         tabHome.addEventListener("click", console.log("showContent"))
-        content.appendChild(tabHome);
+        element.appendChild(tabHome);
 
         return element;
     }
