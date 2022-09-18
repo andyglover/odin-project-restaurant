@@ -1,5 +1,7 @@
 import pageload from './pageload.js';
+import header from './header.js';
 console.log("Hello, Webpack!");
+header();
 pageload();
 
 //make the tabs
