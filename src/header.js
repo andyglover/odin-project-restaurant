@@ -12,7 +12,7 @@ export default function header() {
         element.appendChild(heading);
 
         //create the home tab
-        const tabHome = document.createElement('p');
+        const tabHome = document.createElement('button');
         tabHome.innerText = "home";
         tabHome.addEventListener("click", (e) => {
             render(home())
@@ -20,7 +20,7 @@ export default function header() {
         element.appendChild(tabHome);
 
         //create the menu tab
-        const tabMenu = document.createElement('p');
+        const tabMenu = document.createElement('button');
         tabMenu.innerText = "menu";
         tabMenu.addEventListener("click", (e) => {
             render(menu()) 
@@ -28,7 +28,7 @@ export default function header() {
         element.appendChild(tabMenu);
 
         //create the contact tab
-        const tabContact = document.createElement('p');
+        const tabContact = document.createElement('button');
         tabContact.innerText = "contact";
         tabContact.addEventListener("click", (e) => {
             render(contact()) 
@@ -36,7 +36,7 @@ export default function header() {
         element.appendChild(tabContact);
 
         //create the test tab
-        const tabTest = document.createElement('p');
+        const tabTest = document.createElement('button');
         tabTest.innerText = "test";
         tabTest.addEventListener("click", (e) => {
             render(test()) 
