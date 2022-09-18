@@ -4,7 +4,7 @@ export default function test() {
         const element = document.createElement('div');
 
         const heading = document.createElement('h1');
-        heading.innerText = "This is a heading!";
+        heading.innerText = "This is test.js!";
         element.appendChild(heading);
 
         const paragraph = document.createElement('p');
