@@ -12,6 +12,19 @@ export default function header() {
         tabHome.addEventListener("click", console.log("showContent"))
         element.appendChild(tabHome);
 
+        //create the menu tab
+
+        const tabMenu = document.createElement('p');
+        tabMenu.innerText = "menu";
+        tabMenu.addEventListener("click", console.log("showContent"))
+        element.appendChild(tabMenu);
+
+        //create the contact tab
+        const tabContact = document.createElement('p');
+        tabContact.innerText = "contact";
+        tabContact.addEventListener("click", console.log("showContent"))
+        element.appendChild(tabContact);
+
         return element;
     }
 
