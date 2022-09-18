@@ -2,7 +2,8 @@ export default function main() {
 
     function component(){
         const element = document.createElement('div');
-
+        element.setAttribute('id','main');
+        
         const heading = document.createElement('h1');
         heading.innerText = "This is main.js!";
         element.appendChild(heading);
@@ -12,6 +13,5 @@ export default function main() {
 
         return element;
     }
-
     document.getElementById("content").appendChild(component());
 }
