@@ -1,4 +1,3 @@
-import home from './home.js';
 import header from './header.js';
 import main from './main.js';
 

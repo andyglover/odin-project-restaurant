@@ -1,3 +1,5 @@
+import test from './test.js'
+
 export default function header() {
     function component(){
         const element = document.createElement('div');
@@ -34,7 +36,7 @@ export default function header() {
         const tabTest = document.createElement('p');
         tabTest.innerText = "test";
         tabTest.addEventListener("click", (e) => {
-            render("test") 
+            render(test()) 
         });
         element.appendChild(tabTest);
 
@@ -42,7 +44,8 @@ export default function header() {
     }
 
     function render(section) {
-        document.getElementById("main").textContent = section;
+        document.getElementById("main").textContent=""
+        document.getElementById("main").appendChild(section)
     }
 
     document.getElementById("content").appendChild(component())

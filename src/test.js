@@ -9,9 +9,11 @@ export default function test() {
 
         const paragraph = document.createElement('p');
         paragraph.innerText = "This is a paragraph! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolorum ex necessitatibus quis, voluptatem architecto pariatur ipsa saepe eos nobis reiciendis minus eligendi dolorem qui!" 
+        element.appendChild(paragraph);
 
         return element;
     }
 
-    document.getElementById("content").appendChild(component());
+    return component();
 }
+
