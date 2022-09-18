@@ -10,16 +10,15 @@ export default function header() {
         const tabHome = document.createElement('p');
         tabHome.innerText = "home";
         tabHome.addEventListener("click", (e) => {
-            render("wow") 
+            render("home") 
         });
         element.appendChild(tabHome);
 
         //create the menu tab
-
         const tabMenu = document.createElement('p');
         tabMenu.innerText = "menu";
         tabMenu.addEventListener("click", (e) => {
-            render("wow") 
+            render("menu") 
         });
         element.appendChild(tabMenu);
 
@@ -27,7 +26,7 @@ export default function header() {
         const tabContact = document.createElement('p');
         tabContact.innerText = "contact";
         tabContact.addEventListener("click", (e) => {
-            render("wow") 
+            render("contact") 
         });
         element.appendChild(tabContact);
 
@@ -35,7 +34,7 @@ export default function header() {
         const tabTest = document.createElement('p');
         tabTest.innerText = "test";
         tabTest.addEventListener("click", (e) => {
-            render("wow") 
+            render("test") 
         });
         element.appendChild(tabTest);
 
@@ -43,8 +42,7 @@ export default function header() {
     }
 
     function render(section) {
-        // document.getElementById("main").appendChild(section)
-        console.log(section);
+        document.getElementById("main").textContent = section;
     }
 
     document.getElementById("content").appendChild(component())
