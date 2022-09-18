@@ -1,3 +1,6 @@
+import home from './home.js'
+import menu from './menu.js'
+import contact from './contact.js'
 import test from './test.js'
 
 export default function header() {
@@ -12,7 +15,7 @@ export default function header() {
         const tabHome = document.createElement('p');
         tabHome.innerText = "home";
         tabHome.addEventListener("click", (e) => {
-            render("home") 
+            render(home())
         });
         element.appendChild(tabHome);
 
@@ -20,7 +23,7 @@ export default function header() {
         const tabMenu = document.createElement('p');
         tabMenu.innerText = "menu";
         tabMenu.addEventListener("click", (e) => {
-            render("menu") 
+            render(menu()) 
         });
         element.appendChild(tabMenu);
 
@@ -28,7 +31,7 @@ export default function header() {
         const tabContact = document.createElement('p');
         tabContact.innerText = "contact";
         tabContact.addEventListener("click", (e) => {
-            render("contact") 
+            render(contact()) 
         });
         element.appendChild(tabContact);
 

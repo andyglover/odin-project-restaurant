@@ -1,13 +1,12 @@
 import Restaurant from './restaurant.jpg';
 
 export default function home() {    
-    console.log('This stuff happens when the page is loaded!');
 
     function component() {
         const element = document.createElement('div');
         //Add the H1
         const heading = document.createElement('h1');
-        heading.innerText = "This is a restaurant!";
+        heading.innerText = "This is home.js!";
         element.appendChild(heading);
         //Add the paragraph
         const paragraph = document.createElement('p');
@@ -21,5 +20,5 @@ export default function home() {
         return element;
     }
 
-    document.getElementById("content").appendChild(component());
+    return component();
 }

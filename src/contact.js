@@ -1,11 +1,10 @@
-export default function main() {
+export default function contact() {
 
     function component(){
         const element = document.createElement('div');
-        element.setAttribute('id','main');
 
         const heading = document.createElement('h1');
-        heading.innerText = "This is main.js!";
+        heading.innerText = "This is contact.js!";
         element.appendChild(heading);
 
         const paragraph = document.createElement('p');
@@ -14,6 +13,7 @@ export default function main() {
 
         return element;
     }
-    
-    document.getElementById("content").appendChild(component());
+
+    return component();
 }
+
