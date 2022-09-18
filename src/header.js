@@ -25,6 +25,12 @@ export default function header() {
         tabContact.addEventListener("click", console.log("showContent"))
         element.appendChild(tabContact);
 
+        //create the test tab
+        const tabTest = document.createElement('p');
+        tabTest.innerText = "test";
+        tabTest.addEventListener("click", console.log("showContent"))
+        element.appendChild(tabTest);
+
         return element;
     }
 
