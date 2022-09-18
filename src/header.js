@@ -6,6 +6,12 @@ export default function header() {
         heading.innerText = "This is header.js!";
         element.appendChild(heading);
 
+        //create the home tab
+        const tabHome = document.createElement('p');
+        tabHome.innerText = "home";
+        tabHome.addEventListener("click", console.log("showContent"))
+        content.appendChild(tabHome);
+
         return element;
     }
 
