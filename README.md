@@ -9,7 +9,7 @@ This is the restaurant project from the Odin Project's javascript course!
 
 **Tech used:** JavaScript, Webpack
 
-This project is to help me practice using webpack!
+This project is to help me practice using webpack, and to generate a web page's contents using only javascript!
 
 ## Optimizations
 
