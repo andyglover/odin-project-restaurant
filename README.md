@@ -1,5 +1,5 @@
 # odin-project-restaurant
-This project is under construction!
+This is the restaurant project from the Odin Project's javascript course!
 
 **Link to project:** https://www.andyglover.io/odin-project-restaurant/
 
